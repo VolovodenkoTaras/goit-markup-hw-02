@@ -13,11 +13,24 @@ body {
   background-color: var(--primary-white-color);
 }
 
-/* ul {
-  list-style: none;
-} */
+/* ОБЩЕЕ */
 
-/* Logo */
+/* Скрыл подчеркивание у ссылок */
+.link {
+  text-decoration: none;
+}
+
+/* Скрыл ненужные заголовки */
+.hidden {
+  visibility: hidden;
+}
+
+/* Убрал точки у списков */
+.list {
+  list-style: none;
+}
+
+/* Логотип */
 .logo {
   color: var(--accent-color);
 }
@@ -30,7 +43,7 @@ body {
   color: var(--primary-white-color);
 }
 
-/* Site-nav */
+/* Навигация по сайту */
 .site-nav .link {
   color: var(--title-text-color);
 }
@@ -74,18 +87,18 @@ body {
   visibility: hidden;
 }
 
-/* Section */
+/* Секции */
 .section-title {
   color: var(--title-text-color);
 }
 
-/* Features */
-.features-list .title {
+/* Особенности*/
+.features .title {
   color: var(--title-text-color);
 }
 
-/* Team */
-.team-list .title {
+/* Команда*/
+.team .title {
   color: var(--title-text-color);
 }
 
@@ -93,7 +106,7 @@ body {
   background-color: var(--second-grey-color);
 }
 
-/* Footer */
+/* Подвал */
 .footer {
   background-color: var(--footer-bg-color);
 }
@@ -125,6 +138,6 @@ body {
   background-color: var(--accent-color);
 }
 
-.portfolio-list .title {
+.portfolio-projects .title {
   color: var(--title-text-color);
 }
