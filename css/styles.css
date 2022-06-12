@@ -62,15 +62,15 @@ body {
   color: var(--primary-white-color);
 }
 
-/* Button */
-.button {
+/* Кнопка героя */
+.hero .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.hero .button:hover,
+.hero .button:focus {
   visibility: hidden;
 }
 
@@ -111,9 +111,20 @@ body {
   color: var(--accent-color);
 }
 
-/* links */
-.link {
-  text-decoration: none;
+/* Стили для портфолио */
+
+.portfolio .button {
+  color: var(--title-text-color);
+  background-color: var(--second-grey-color);
+  cursor: pointer;
 }
 
-/* Стили для портфолио */
+.portfolio .button:hover,
+.portfolio .button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-list .title {
+  color: var(--title-text-color);
+}
